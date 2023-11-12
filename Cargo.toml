@@ -1,0 +1,16 @@
+[package]
+name = "font-mud"
+version = "0.1.0"
+edition = "2021"
+description = "A library for dynamically generating and packing MSDFs of text glyphs."
+license = "Apache-2.0"
+repository = "https://git.disroot.org/hearth/font-mud"
+
+[dependencies]
+glam = "0.20"
+msdfgen = {version = "0.2.1", default-features = false, features = ["ttf-parser", "png"]}
+ttf-parser = "0.18.1"
+rect_packer = "0.2.1"
+
+[dev-dependencies]
+png = "0.17"
