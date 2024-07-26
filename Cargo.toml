@@ -12,8 +12,8 @@ ttf-parser = "0.19.2"
 rect_packer = "0.2.1"
 
 [dependencies.msdfgen]
-git = "https://github.com/hearth-rs/msdfgen-rs"
-branch = "fix-mac-builds"
+git = "https://github.com/katyo/msdfgen-rs"
+branch = "master"
 default-features = false
 features = ["ttf-parser", "png"]
 
